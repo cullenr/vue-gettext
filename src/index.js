@@ -1,12 +1,12 @@
-import './object-assign-polyfill'
+import './object-assign-polyfill.js'
 
-import Component from './component'
-import Directive from './directive'
-import Config from './config'
-import interpolate from './interpolate'
-import Override from './override'
-import translate from './translate'
-import { shareVueInstance } from './localVue'
+import Component from './component.js'
+import Directive from './directive.js'
+import Config from './config.js'
+import interpolate from './interpolate.js'
+import Override from './override.js'
+import translate from './translate.js'
+import { shareVueInstance } from './localVue.js'
 
 
 let languageVm  // Singleton.

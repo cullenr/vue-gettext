@@ -1,4 +1,4 @@
-import { _Vue } from './localVue'
+import { _Vue } from './localVue.js'
 
 const EVALUATION_RE = /[[\].]{1,2}/g
 

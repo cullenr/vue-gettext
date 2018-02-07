@@ -1,7 +1,7 @@
-import interpolate from './interpolate'
-import translate from './translate'
-import uuid from './uuid'
-import { _Vue } from './localVue'
+import interpolate from './interpolate.js'
+import translate from './translate.js'
+import uuid from './uuid.js'
+import { _Vue } from './localVue.js'
 
 
 const updateTranslation = (el, binding, vnode) => {

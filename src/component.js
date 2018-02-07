@@ -1,5 +1,5 @@
-import translate from './translate'
-import uuid from './uuid'
+import translate from './translate.js'
+import uuid from './uuid.js'
 
 
 /**
